@@ -39,7 +39,7 @@ package org.cybernath.cru.services
 		
 		
 		public function init():void{
-			if(!ServerSocket.isSupported){
+			if(true || !ServerSocket.isSupported){
 				trace("ServerSocket not supported.");
 				return;
 			}
